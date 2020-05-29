@@ -40,7 +40,7 @@ class Index extends Component {
     return (
       <View className='index'>
         <View style="background:red;width:50px;height:50px;"></View>
-        <Button className='add_btn' onClick={this.props.add}>11+</Button>
+        <Button className='add_btn' onClick={this.props.add}>+</Button>
         <Button className='dec_btn' onClick={this.props.dec}>-</Button>
         <Button className='dec_btn' onClick={this.props.asyncAdd}>async</Button>
         <View><Text>{this.props.counter.num}</Text></View>
